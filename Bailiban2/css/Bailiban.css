@@ -1,0 +1,41 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.bt-zw{
+    width: 100%;
+    height: 50px;
+    border: 1px black solid;
+    background-color: black;
+}
+.bt1-zw{
+    width: 100%;
+    height: 80px;
+    border: 1px red solid;
+}
+.cd-zw{
+    width: 100%;
+    height: 300px;
+    border: 1px black solid;
+}
+.zt-zw{
+    width: 100%;
+    height: 800px;
+    border: 1px red solid;
+    
+}
+.xx-zw{
+    width: 80%;
+    height: 750px;
+    border: 1px black solid;
+}
+.wy-zw{
+    width: 100%;
+    height: 200px;
+    border: 1px black solid;
+}
+gd-zw{
+    width: 100%;
+    height: 200px;
+    border: 1px red solid;
+}
