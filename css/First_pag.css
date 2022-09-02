@@ -50,7 +50,7 @@ li{
     height: 14px;
     background-color: #fff;
     margin: 8px 8px 8px 8px;
-}
+}g
 .top_nav img{
     margin-left: 15px;
 }
@@ -101,10 +101,134 @@ li{
     margin: 0 auto;
 }
 .search>div{
-    width: 100%;
+    width: 59.5%;
     height: 42px;
-    background-color: salmon;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: start;
+    background-color: #fff;
     box-sizing: border-box;
-    border: 1px solid salmon;
+}
+.sl{
+    min-width: 88px;
+    height: 42px;
+    line-height: 42px;
+}
+.pos{
+    height: 42px;
+}
+.pos p{
+    font-size: 12px;
+    margin-left: 20px;
+    display: inline-block;
+}
+.pos i{
+    margin:0 14px 0 13px;
+    font-size: 6px;
+}
+.sc{
+    height: 22px;
+    min-width:632px;
+    line-height: 42px;
+    box-sizing: border-box;
+    border-left: 1px dashed #f2f2f2;
+}
+.sc input{
+    width: 630px;
+    height: 22px;
+    display: block;
+    box-sizing: border-box;
+    padding:0 20px 0 12px;;
+    outline: none;
+    border: 0;
+}
+.sr{
+    min-width: 80px;
+    height: 42px;
+    color: #fff;
+    font-size: 12px;
+    background-color: #11c591;
+    text-align: center;
+    line-height: 42px;
+}
+.sr>div{
+    display: inline-block;
+}
+.sr div div{
+    display: inline-block;
+    vertical-align:top;
+}
+/* work */
+.work{
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 374px;
+    margin-bottom: 32px;
+    background-color: palevioletred;
+}
+.work>div{
+    width: 100%;
+    height: 100%;
+}
+.cycle_img{
+    width: 100%;
+    height: 100%;
+}
+.cycle_img img{
+    width: 100%;
+    height: 100%;
+}
+.item{
+    width: 186px;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 112px;
+    background-color: gold;
+}
+.item ul{
+    margin: 22px 24px 0 20px;
+}
+.item ul li{
+    margin-bottom: 42px;
+}
+.item ul li p{
+    display: inline-block;
+    font-size: 12px;
+    color: #fff;
+}
+.item ul li p:nth-of-type(2){
+    float: right;
+}
+.l_button{
+    position: absolute;
+    left: 16px;
+    top: 160px;
+    width: 36px;
+    height: 36px;
+    border: 0;
+    border-radius: 50%;
+}
+.r_button{
+    position: absolute;
+    right:16px;
+    top: 160px;
+    width: 36px;
+    height: 36px;
+    border: 0;
+    border-radius: 50%;
+}
+.point{
+    position: absolute;
+    left: 676px;
+    top: 352px;
+    background-color: #11c591;
+}
+.point li{
+    float: left;
 }
 /* content end */
