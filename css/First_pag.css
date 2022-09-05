@@ -60,7 +60,7 @@ li{
     height: 60px;
 }
 .top2_nav div{
-    width: 88%;
+    width: 84%;
     height: 100%;
     display: flex;
     color:rgb(102, 102, 102);
@@ -188,47 +188,130 @@ li{
     position: absolute;
     top: 0;
     left: 112px;
-    background-color: gold;
+    background-color: rgba(0, 0, 0, 0.18);
 }
 .item ul{
     margin: 22px 24px 0 20px;
 }
 .item ul li{
+    width: 142px;
+    display: inline-block;
+    line-height: 12px;
     margin-bottom: 42px;
 }
 .item ul li p{
     display: inline-block;
     font-size: 12px;
+    line-height: 12px;
     color: #fff;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
 }
 .item ul li p:nth-of-type(2){
     float: right;
 }
-.l_button{
+.item ul li p:nth-of-type(2) i{
+    font-size: 12px;
+}
+.work button{
     position: absolute;
-    left: 16px;
     top: 160px;
     width: 36px;
     height: 36px;
+    margin-bottom: 30px;
+    color: #fff;
     border: 0;
     border-radius: 50%;
+    background-color: rgba(31, 45, 61, 0.11);
+}
+.l_button{
+    left: 16px;
 }
 .r_button{
-    position: absolute;
     right:16px;
-    top: 160px;
-    width: 36px;
-    height: 36px;
-    border: 0;
-    border-radius: 50%;
 }
 .point{
+    width: 84px;
     position: absolute;
-    left: 676px;
+    left: 50%;
     top: 352px;
-    background-color: #11c591;
+    margin-left: -42px;
+    /* background-color: #11c591; */
 }
 .point li{
+    width: 10px;
+    height: 10px;
     float: left;
+    background-color: #fff;
+    margin-right: 6px;
+    border-radius: 50%;
+}
+/* employ */
+.employ{
+    width: 100%;
+}
+.employ>div{
+    width: 83.5%;
+    margin: 0 auto;
+    background-color: rebeccapurple;
+}
+.etitle{
+    width: 100%;
+    height: 18px;
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 23px;
+    box-sizing: border-box;
+    border-left: 4px solid #17ac82;
+}
+.etitle p{
+    height: 18px;
+    line-height: 18px;
+    margin-left: 10px;
+    font-family:'微软雅黑';
+}
+.detail{
+    width: 100%;
+    font-size: 0;
+}
+.detail>div{
+    display: inline-block;
+    margin-right: 30px;
+    margin-bottom: 40px;
+    min-width: 354px;
+    height: 162px;
+    padding: 20px;
+    box-sizing: border-box;
+    background-color: pink;
+}
+.detail>div:nth-of-type(3),
+.detail>div:nth-of-type(6){
+    margin-right: 0;
+}
+.detail>div p{
+    display: inline-block;
+    background-color: greenyellow;
+}
+.type{
+    /* width: 50px; */
+    background-color: black;
+}
+.type p{
+    width: 50%;
+    color: #333;
+    font-size: 12px;
+}
+.loc{
+    width: 50px;
+    background-color:palevioletred;
+}
+.coname{
+    width: 50px;
+    background-color: lightblue;
+}
+.coname img{
+    width: 26px;
+    height: 26px;
 }
 /* content end */
