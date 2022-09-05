@@ -1,0 +1,684 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+    list-style: none;
+}
+
+.clearfix {
+    content: '';
+    display: block;
+    clear: both;
+    overflow: hidden;
+    zoom: 1;
+}
+
+.content {
+    width: 100%;
+    height: auto;
+}
+
+body::-webkit-scrollbar {
+    width: 5px;
+}
+
+body::-webkit-scrollbar-thumb {
+    background-color: #17ac82;
+    border-radius: 5px;
+
+}
+
+/* 公共样式头部 黑色部分 start */
+.content .head {
+    width: 100%;
+    height: 40px;
+    background-color: #333;
+    font-size: 14px;
+    color: #fff;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 10;
+}
+
+.content .head ul {
+    width: 1210px;
+    height: 40px;
+    line-height: 40px;
+    margin: 0 auto;
+}
+
+.content .head ul li {
+    float: right;
+    margin-left: 30px;
+
+}
+
+.content .head ul li img {
+    height: 20px;
+    width: 20px;
+    margin-top: 10px;
+}
+
+.content .head ul li:nth-of-type(2) span {
+    display: inline-block;
+    width: 40px;
+    height: 20px;
+    text-align: center;
+    line-height: 20px;
+}
+
+.content .head ul li:nth-of-type(2) span:first-of-type {
+    border-right: 1px solid #fff;
+}
+
+.content .head ul li:nth-of-type(1) {
+    margin-left: 10px;
+}
+
+/* 公共样式头部 黑色移入 start */
+.content .head ul li:hover {
+    color: #17ac82;
+    cursor: pointer;
+}
+
+.content .head ul li:nth-of-type(2):hover {
+    color: #fff;
+}
+
+.content .head ul li:nth-of-type(2) span:nth-of-type(1):hover,
+.content .head ul li:nth-of-type(2) span:nth-of-type(2):hover {
+    color: #17ac82;
+}
+
+/* 公共样式头部 黑色移入 end */
+/* 公共样式头部 黑色部分 end */
+
+/* 公共样式头部 白色部分 start */
+.content .nav {
+    width: 100%;
+    height: 60px;
+    background-color: #f7f7f7;
+    color: #666;
+    position: fixed;
+    top: 40px;
+    overflow: hidden;
+    z-index: 10;
+}
+
+.content .nav .nav_border {
+    width: 1210px;
+    height: 60px;
+    line-height: 60px;
+    font-size: 16px;
+    margin: 0 auto;
+}
+
+.content .nav .nav_border a {
+    color: #666;
+    text-decoration: none;
+}
+
+.content .nav .nav_border li:hover a {
+    color: #fff;
+}
+
+.content .nav img {
+    display: inline-block;
+    height: 31px;
+    margin-right: 60px;
+    margin-bottom: 15px;
+}
+
+.content .nav ul {
+    display: inline-block;
+    height: 60px;
+    background-color: #f8f8f8
+}
+
+.content .nav ul li {
+    float: left;
+    padding: 0 20px;
+    margin-right: 20px;
+}
+
+.content .nav ul li:nth-of-type(3) {
+    background-color: #17ac82;
+    color: #fff;
+}
+
+.content .nav ul li:hover {
+    background-color: #17ac82;
+    color: #fff;
+    cursor: pointer;
+}
+
+/* 公共样式头部 白色部分 end */
+
+/* 下面盒子*/
+.main-down {
+    background-color: #f2f2f2;
+    min-width: 1210px !important;
+    width: 100%;
+    height: 1300px;
+    margin-top: 30px;
+}
+
+.selectBox {
+    width: 1210px;
+    margin: 0 auto;
+    padding: 30px 0;
+}
+
+
+/* 主题内容——搜索 start */
+.search {
+    width: 1210px;
+    height: 42px;
+    margin: 0 auto;
+    padding: 20px 0px;
+}
+
+.main-down .search .search_background {
+    height: 42px;
+    width: 800px;
+    background-color: #fff;
+    line-height: 42px;
+    border-radius: 5px;
+    margin-top: 30px;
+    position: relative;
+}
+
+.main-down .search .search_background .search_input {
+    float: left;
+    width: 650px;
+    padding: 0px 20px;
+    border: 1px solid #e8e8e8;
+    border-radius: 4px;
+}
+
+.main-down .search .search_background .search_input input {
+    border: none;
+    outline: none;
+    width: 600px;
+}
+
+.main-down .search .search_background .search_input span {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    margin: 11px;
+    position: absolute;
+}
+
+.main-down .search .search_background .search_button {
+    float: left;
+    width: 88px;
+    height: 42px;
+    background-color: #17ac82;
+    border-radius: 0px 5px 5px 0px;
+    text-align: center;
+    font-size: 14px;
+    color: #fff;
+}
+
+/* 主题内容——搜索 end */
+/* 公司城市 */
+.cityline {
+    width: 1120px;
+    display: inline-block;
+    line-height: 40px;
+
+}
+
+.normalText {
+    font-size: 14px;
+    color: #333;
+    float: left;
+}
+
+.normalText p {
+    line-height: 40px;
+    margin-right: 18px;
+    width: 60px;
+    display: inline-block;
+}
+
+/* 下拉框 */
+.xialak {
+    width: 80px;
+    height: 30px;
+    padding-left: 20px;
+    outline: none;
+    background-color: #17ac82;
+    color: #fff;
+    border: 1px solid #17ac82;
+    display: inline-block;
+
+}
+
+.xialak:hover option {
+    background-color: #fff;
+    color: #333;
+    border: 0px;
+
+}
+
+/* 热门城市 */
+.commonDis {
+    display: inline-block;
+    align-items: center;
+    margin-left: 30px;
+}
+
+.hotCityItem {
+    margin-right: 20px;
+    font-size: 12px;
+    color: #666;
+    display: inline-block;
+}
+
+/* 不限 */
+.cityListInfo {
+    display: block;
+    margin-left: 85px;
+    line-height: 58px;
+    width: 1140px;
+    border-bottom: 1px solid #f2f2f2;
+}
+
+.selectdCityStyle {
+    color: #17ac82 !important;
+}
+
+.cityNameInfo {
+    margin-right: 29px;
+    color: #999;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+/* 公司规模 */
+.commonguimo {
+    padding-top: 30px;
+    margin-top: 60px;
+    height: 30px;
+
+}
+
+/* 企业列表 */
+.companyBody {
+    width: 1210px;
+    height: auto;
+    margin: 0 auto;
+    min-height: 400px;
+}
+
+.commonqiye {
+    margin-top: 30px;
+    display: block;
+    width: 1210px;
+    height: 44px;
+    align-items: center;
+}
+
+.titleLeft {
+    width: 4px;
+    height: 18px;
+    background-color: #17ac82;
+    margin-right: 10px;
+    display: inline-block;
+}
+
+/* 公司盒子 */
+.commonitem {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.examInfoShort {
+    margin-right: 35px;
+}
+
+.hotCommpanyItem {
+    width: 235px;
+    height: 130px;
+    background-color: #fff;
+    border-radius: 4px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 30px;
+    justify-content: space-around;
+    cursor: pointer;
+}
+
+/* 公司logo */
+.hotCommpanyLogo {
+    width: 50px;
+    height: 50px;
+    border-radius: 6px;
+    margin: -10px auto;
+}
+
+.companyNameOver {
+    overflow: hidden;
+    max-height: 48px;
+    line-height: 24px;
+    font-size: 14px;
+    color: rgb(51, 51, 51);
+    text-align: center;
+
+}
+
+/* 分页 */
+.pagePagination {
+    width: 100%;
+    height: 72px;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.btn-prev {
+    background-color: #f2f2f2;
+    border: 0.5px solid #e5e1e1;
+    width: 60px;
+    height: 32px;
+    border-radius: 4px;
+    display: inline-block;
+    font-size: 12px;
+    min-width: 35.5px;
+    height: 28px;
+    line-height: 28px;
+    vertical-align: top;
+    box-sizing: border-box;
+}
+
+
+
+.page {
+    list-style: none;
+    display: inline-block;
+    vertical-align: top;
+    padding: 0;
+}
+
+.page li.active {
+    color: #fff;
+    cursor: default;
+    background-color: #17ac82;
+    margin-left: 5px;
+}
+
+.page li.active:hover {
+    color: #fff;
+    cursor: default;
+    background-color: #17ac82;
+}
+
+.page li {
+    padding: 0 3px;
+    background: #f2f2f2;
+    display: inline-block;
+    font-size: 13px;
+    width: 30px;
+    height: 29px;
+    line-height: 28px;
+    cursor: pointer;
+    font-weight: 700;
+    text-align: center;
+    border-radius: 4px;
+    margin-right: 5px;
+    position: relative;
+    border: 0.5px solid #e5e1e1;
+}
+
+.page li:nth-of-type(7) span:first-of-type {
+    position: absolute;
+    top: -2px;
+    left: 13px;
+}
+
+.page li:nth-of-type(7):hover span:first-of-type {
+    visibility: hidden;
+}
+
+.page li:nth-of-type(7) span:last-of-type {
+    visibility: hidden;
+}
+
+.page li:nth-of-type(7):hover span:last-of-type {
+    visibility: visible;
+}
+
+.page .number:hover {
+    color: #17ac82;
+}
+
+
+
+.pagination__total {
+    display: inline-block;
+    margin-right: 30px;
+    font-weight: 400;
+    color: #606266;
+    font-size: 12px;
+    margin-left: 10px;
+}
+
+/* 跳转 */
+.pagination__jump {
+    display: inline-block;
+    margin-left: 24px;
+    font-weight: 400;
+    color: #606266;
+    font-size: 12px;
+    margin-left: 10px;
+    margin-top: -20px;
+}
+
+.tiaozhuan {
+    display: inline-block;
+    width: 40px;
+    height: 22px;
+    padding-top: 5px;
+    border: 1px solid #e7e4e4;
+    background-color: #fff;
+    border-radius: 4px;
+}
+
+/* 主体内容 end */
+/* 尾部 */
+.foot {
+    height: 377px;
+    background-color: #333;
+    color: #adadad;
+    width: 100%;
+    min-width: 1210px;
+    text-align: center;
+}
+
+.footerBody {
+    width: 1210px;
+    height: auto;
+    margin: 0 auto;
+    padding: 20px 0;
+}
+
+.footerLeft {
+    width: 730px;
+    height: 187px;
+    font-size: 14px;
+    display: inline-block;
+}
+
+.leftTop {
+    width: 730px;
+    height: 54px;
+    display: flex;
+}
+
+.leftTop img {
+    margin-bottom: 10px;
+    width: 100px;
+    height: auto;
+    opacity: 0.7;
+}
+
+.leftTop span {
+    display: block;
+    margin-left: 15px;
+    height: 18px;
+    margin-top: 18px;
+    color: #adadad;
+}
+
+.word {
+    width: 730px;
+    height: 18px;
+    margin-bottom: 15px;
+    display: flex;
+}
+
+.word span {
+    cursor: pointer;
+    margin-right: 30px;
+}
+
+.word span:hover {
+    color: #fff;
+}
+
+.word1 {
+    width: 730px;
+    height: 18px;
+    margin-bottom: 15px;
+    display: flex;
+}
+
+.word1 a {
+    color: #adadad;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.word1:hover a {
+    color: #fff;
+}
+
+.word2 {
+    width: 730px;
+    height: 18px;
+    margin-bottom: 15px;
+    display: flex;
+}
+
+.word2 span {
+    cursor: pointer;
+    margin-right: 30px;
+    display: block;
+}
+
+.footerRight {
+    width: 236px;
+    height: 134px;
+    display: inline-block;
+    margin-left: 238px;
+
+}
+
+.footerRight img {
+    height: auto;
+    width: 103px;
+    display: inline-block;
+
+}
+
+.wechat {
+    margin-right: 25px;
+
+
+}
+
+/* 侧边栏 */
+.sidebar {
+    top: 110px;
+    overflow: hidden;
+    position: fixed;
+    background-color: #fff;
+    width: 55px;
+    height: 106px;
+    text-align: center;
+    cursor: pointer;
+    border: 1px solid #f2f2f2;
+    font-size: 12px;
+    color: #666;
+    right: 0;
+}
+
+.sidebar ul {
+
+    width: 50px;
+    text-align: center;
+}
+
+.sidebar ul li {
+    list-style: none;
+    width: 50px;
+    cursor: pointer;
+    text-align: center;
+
+}
+
+.sidebar ul>li>span {
+    display: block;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    line-height: 35px;
+    font-size: 12px;
+}
+
+.icon {
+    display: inline-block;
+    vertical-align: middle;
+    background-image: url(../img/消息.png);
+    background-size: cover;
+    width: 20px;
+    height: 20px;
+    margin-left: 18px;
+}
+
+.liaotian {
+    width: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 18px;
+}
+
+.content .nav ul li:nth-of-type(3) a {
+    color: #fff;
+}
+
+.head a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.content .nav .nav_border li:hover a {
+    color: #666;
+}
+
+.content .nav ul li:nth-of-type(3):hover {
+    background-color: #17ac82;
+}
+.content .nav ul li:nth-of-type(3):hover a{
+    color: #fff;
+}
+.content .nav ul li:hover {
+    background-color: #fff;
+}
