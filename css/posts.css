@@ -1,0 +1,921 @@
+.up {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    background-color: white;
+}
+
+div {
+    font-size: 0px;
+}
+
+.posts {
+    width: 800px;
+    height: 44px;
+    position: absolute;
+    top: 100px;
+    left: 200px;
+    border: 1px solid #f2f2f2;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+.select {
+    width: 80px;
+    height: 48px;
+    font-size: 14px;
+    display: inline-block;
+    border-bottom: 1px solid #f2f2f2;
+    border-left: 0px;
+    border-top: 0px;
+    border-right: 0px;
+    cursor: pointer;
+    padding-left: 10px;
+    margin-top: 2px;
+    border-radius: 5px;
+    color: #909399;
+    position: absolute;
+    top: -2px;
+    appearance: none;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    outline: none;
+}
+
+.drop-downarrow {
+    width: 12px;
+    height: 8px;
+    display: inline-block;
+    background-image: url(../img/vertical.png);
+    background-repeat: no-repeat;
+    background-position: -116px -59px;
+    position: absolute;
+    top: 20px;
+    left: 52px;
+}
+
+.vertical {
+    width: 1px;
+    height: 27px;
+    display: inline-block;
+    background-image: url(../img/vertical.png);
+    background-repeat: no-repeat;
+    background-position: -147px -50px;
+    position: absolute;
+    top: 13px;
+    left: 80px;
+}
+
+input[type="text"] {
+    border-left: 0px;
+    -webkit-appearance: none;
+    border-radius: 5px;
+    border-right: 0px;
+    border-top: 1px solid #f2f2f2;
+    border-bottom: 0px;
+}
+
+.searchbox {
+    width: 640px;
+    height: 42px;
+    display: inline-block;
+    position: absolute;
+    top: -1px;
+    left: 92px;
+    outline: none;
+}
+
+.search {
+    width: 89px;
+    height: 45px;
+    font-size: 14px;
+    display: inline-block;
+    cursor: pointer;
+    position: absolute;
+    left: 712px;
+    background-color: #17ac82;
+    font-size: 17px;
+    line-height: 45px;
+    text-align: center;
+    color: #fffadf;
+    border-radius: 0 5px 5px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.search_icon {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    margin: 5px;
+    background-image: url(../img/posts.png);
+    background-repeat: no-repeat;
+    transform-origin: center;
+}
+
+.address {
+    width: 1210px;
+    height: 40px;
+    margin-left: 200px;
+    margin-top: 184px;
+    display: inline-block;
+    font-size: 14px;
+}
+
+.address1 {
+    width: 90px;
+    height: 36px;
+    margin-left: 20px;
+    background-color: #17ac82;
+    color: white;
+    padding-left: 6px;
+    font-size: 14px;
+    border-radius: 3px;
+    border: 1px solid #17ac82;
+    outline: none;
+    cursor: pointer;
+}
+
+.popularcities {
+    display: inline-block;
+    font-size: 12px;
+    margin-left: 30px;
+}
+
+.cities {
+    display: inline-block;
+    margin-left: -10px;
+}
+
+.li {
+    display: inline-block;
+    font-size: 12px;
+    margin-right: 16px;
+    cursor: pointer;
+}
+
+.smalladdress {
+    width: 1070px;
+    height: 58px;
+    margin-left: 270px;
+    font-size: 12px;
+    display: inline-block;
+    border-bottom: 1px solid #f2f2f2;
+}
+
+.smalladdress1 {
+    width: 24px;
+    height: 14px;
+    display: inline-block;
+    font-size: 12px;
+    line-height: 58px;
+    margin-right: 30px;
+    cursor: pointer;
+}
+
+.smalladdress2 {
+    width: 24px;
+    height: 14px;
+    display: inline-block;
+    font-size: 12px;
+    cursor: pointer;
+    color: #17ac82;
+}
+
+.other {
+    width: 1210px;
+    height: 70px;
+    display: inline-block;
+    font-size: 14px;
+    margin-left: 200px;
+    line-height: 70px;
+}
+
+.projectexperience {
+    display: inline-block;
+    width: 140px;
+    height: 30px;
+    margin-left: 18px;
+    margin-right: 40px;
+    padding-left: 14px;
+    outline: none;
+    cursor: pointer;
+    border: 1px solid #dcdfe6;
+    border-radius: 3px;
+    color: #c0c9db;
+}
+
+.projectexperience:hover {
+    border: 1px solid #c0c4cc;
+}
+
+.academicrequirements {
+    display: inline-block;
+    width: 140px;
+    height: 30px;
+    margin-right: 40px;
+    padding-left: 14px;
+    outline: none;
+    cursor: pointer;
+    border: 1px solid #dcdfe6;
+    border-radius: 3px;
+    color: #c0c9db;
+}
+
+.academicrequirements:hover {
+    border: 1px solid #c0c4cc;
+}
+
+.salaryrequirements {
+    display: inline-block;
+    width: 140px;
+    height: 30px;
+    margin-right: 40px;
+    padding-left: 14px;
+    outline: none;
+    cursor: pointer;
+    border: 1px solid #dcdfe6;
+    border-radius: 3px;
+    color: #c0c9db;
+}
+
+.salaryrequirements:hover {
+    border: 1px solid #c0c4cc;
+}
+
+.companysize {
+    display: inline-block;
+    width: 140px;
+    height: 30px;
+    margin-right: 40px;
+    padding-left: 14px;
+    outline: none;
+    cursor: pointer;
+    border: 1px solid #dcdfe6;
+    border-radius: 3px;
+    color: #c0c9db;
+}
+
+.companysize:hover {
+    border: 1px solid #c0c4cc;
+}
+
+.delivery {
+    width: 48px;
+    height: 12px;
+    font-size: 12px;
+    padding: 8px 15px;
+    background-color: #17ac82;
+    display: inline-block;
+    line-height: 12px;
+    color: white;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.down {
+    width: 1210px;
+    height: 1043px;
+    margin: 20px;
+    margin-left: 200px;
+}
+
+.titleoptions {
+    width: 1210px;
+    height: 60px;
+}
+
+.checkboxbox {
+    width: 60px;
+    height: 60px;
+    display: inline-block;
+    padding-top: 8px;
+    position: relative;
+}
+
+.selectall {
+    width: 16px;
+    height: 16px;
+    border: 1px solid #dcdfe6;
+    cursor: pointer;
+    border-radius: 2px;
+    position: absolute;
+    left: 20px;
+    top: 20px;
+}
+
+.selectall:hover {
+    border: 1px solid #17ac82;
+    -webkit-appearance: none;
+}
+
+.highestpay {
+    width: 126px;
+    height: 60px;
+    padding: 0 20px;
+    font-size: 14px;
+    display: inline-block;
+    text-align: center;
+    line-height: 60px;
+    position: absolute;
+    background-color: #17ac82;
+    color: white;
+}
+
+.latestrelease {
+    display: inline-block;
+    width: 126px;
+    height: 60px;
+    padding: 0 20px;
+    background-color: white;
+    font-size: 14px;
+    display: inline-block;
+    line-height: 60px;
+    text-align: center;
+    position: absolute;
+    left: 434px;
+}
+
+.smartmatching {
+    display: inline-block;
+    width: 126px;
+    height: 60px;
+    padding: 0 20px;
+    background-color: white;
+    font-size: 14px;
+    display: inline-block;
+    line-height: 60px;
+    text-align: center;
+    position: absolute;
+    left: 580px;
+    cursor: pointer;
+}
+
+.jobinformation {
+    width: 1210px;
+    height: 902px;
+    border-top: 4px solid #17ac82;
+}
+
+.job1 {
+    width: 1170px;
+    height: 142px;
+    padding-right: 40px;
+    margin-bottom: 10px;
+    border-bottom: 1px solid #f2f2f2;
+}
+
+.applyforaposition {
+    width: 100px;
+    height: 30px;
+    font-size: 16px;
+    border-radius: 5px;
+    line-height: 30px;
+    position: absolute;
+    left: 1280px;
+    top: 600px;
+    text-align: center;
+    background-color: #17ac82;
+    color: white;
+    visibility: hidden;
+}
+
+.applyforaposition1 {
+    width: 100px;
+    height: 30px;
+    font-size: 16px;
+    border-radius: 5px;
+    line-height: 30px;
+    position: absolute;
+    left: 1280px;
+    top: 750px;
+    text-align: center;
+    background-color: #17ac82;
+    color: white;
+    visibility: hidden;
+}
+
+.applyforaposition2 {
+    width: 100px;
+    height: 30px;
+    font-size: 16px;
+    border-radius: 5px;
+    line-height: 30px;
+    position: absolute;
+    left: 1280px;
+    top: 900px;
+    text-align: center;
+    background-color: #17ac82;
+    color: white;
+    visibility: hidden;
+}
+
+.applyforaposition3 {
+    width: 100px;
+    height: 30px;
+    font-size: 16px;
+    border-radius: 5px;
+    line-height: 30px;
+    position: absolute;
+    left: 1280px;
+    top: 1050px;
+    text-align: center;
+    background-color: #17ac82;
+    color: white;
+    visibility: hidden;
+}
+
+.applyforaposition4 {
+    width: 100px;
+    height: 30px;
+    font-size: 16px;
+    border-radius: 5px;
+    line-height: 30px;
+    position: absolute;
+    left: 1280px;
+    top: 1200px;
+    text-align: center;
+    background-color: #17ac82;
+    color: white;
+    visibility: hidden;
+}
+
+.applyforaposition5 {
+    width: 100px;
+    height: 30px;
+    font-size: 16px;
+    border-radius: 5px;
+    line-height: 30px;
+    position: absolute;
+    left: 1280px;
+    top: 1350px;
+    text-align: center;
+    background-color: #17ac82;
+    color: white;
+    visibility: hidden;
+}
+
+.job1:hover .applyforaposition {
+    visibility: visible;
+}
+
+.job1:hover .applyforaposition1 {
+    visibility: visible;
+}
+
+.job1:hover .applyforaposition2 {
+    visibility: visible;
+}
+
+.job1:hover .applyforaposition3 {
+    visibility: visible;
+}
+
+.job1:hover .applyforaposition4 {
+    visibility: visible;
+}
+
+.job1:hover .applyforaposition5 {
+    visibility: visible;
+}
+
+.job1:hover {
+    border-bottom: 1px solid #17ac82;
+}
+
+.job1:hover .rightmiddle {
+    opacity: 0;
+}
+
+.job1:hover .rightdown {
+    opacity: 0;
+}
+
+.left {
+    width: 280px;
+    height: 141px;
+    line-height: 141px;
+    display: inline-block;
+    position: relative;
+}
+
+.left1 {
+    width: 66px;
+    height: 18px;
+    text-align: center;
+    display: inline-block;
+    cursor: pointer;
+}
+
+.left2 {
+    width: 16px;
+    height: 16px;
+    cursor: pointer;
+    border-radius: 2px;
+    display: inline-block;
+}
+
+.left2:hover {
+    border: 1px solid #17ac82;
+    -webkit-appearance: none;
+}
+
+.left3 {
+    width: 230px;
+    height: 141px;
+    font-size: 16px;
+    display: inline-block;
+    position: absolute;
+    cursor: pointer;
+}
+
+.COO {
+    position: absolute;
+    font-size: 14px;
+    color: #666666;
+}
+
+.speak {
+    position: absolute;
+    font-size: 14px;
+    left: 140px;
+    color: #666666;
+}
+
+.left4 {
+    width: 250px;
+    height: 19px;
+    font-size: 16px;
+    display: inline-block;
+    position: absolute;
+    top: -40px;
+}
+
+.smallicon {
+    display: inline-block;
+    width: 15px;
+    height: 12px;
+    background-image: url(../img/smallicon.png);
+    background-repeat: no-repeat;
+    background-position: -20px -24px;
+    margin-left: 20px;
+    position: absolute;
+    top: 48pt;
+    left: 100px;
+}
+
+.left5 {
+    width: 195px;
+    height: 24px;
+    position: absolute;
+    cursor: pointer;
+}
+
+.left6 {
+    width: 50px;
+    height: 24px;
+    font-size: 12px;
+    margin-right: 20px;
+    display: inline-block;
+    position: absolute;
+    top: -140px;
+    left: 70px;
+    color: #ff0000;
+}
+
+.left7 {
+    font-size: 12px;
+    width: 100px;
+    height: 24px;
+    display: inline-block;
+    position: absolute;
+    top: -140px;
+    left: 130px;
+    text-overflow: ellipsis;
+    color: #666666;
+}
+
+.left8 {
+    width: 50px;
+    height: 24px;
+    font-size: 12px;
+    display: inline-block;
+    position: absolute;
+    position: absolute;
+    top: -140px;
+    left: 240px;
+    position: absolute;
+    color: #666666;
+}
+
+.left9 {
+    width: 1px;
+    height: 15px;
+    background-image: url(../img/vertical1.png);
+    background-repeat: no-repeat;
+    background-position: -14px -16px;
+    display: inline-block;
+    position: absolute;
+    top: -76px;
+    left: 234px;
+}
+
+.right {
+    width: 310px;
+    float: right;
+    padding: 20px 0;
+}
+
+.rightup {
+    font-size: 16px;
+    text-align: right;
+}
+
+.rightmiddle {
+    font-size: 12px;
+    text-align: right;
+    margin-top: 10px;
+    color: #666666;
+}
+
+.rightdown {
+    font-size: 12px;
+    text-align: right;
+    margin-top: 10px;
+    color: #666666;
+}
+
+.smalliconjava {
+    display: inline-block;
+    width: 15px;
+    height: 12px;
+    background-image: url(../img/smallicon.png);
+    background-repeat: no-repeat;
+    background-position: -20px -24px;
+    margin-left: 20px;
+    position: absolute;
+    top: 48pt;
+    left: 200px;
+}
+
+.speakjava {
+    position: absolute;
+    font-size: 14px;
+    left: 240px;
+    color: #666666;
+}
+
+.left4java {
+    width: 340px;
+    height: 19px;
+    font-size: 16px;
+    display: inline-block;
+    position: absolute;
+    top: -40px;
+}
+
+input[type="checkbox"] {
+    border: 1px solid #17ac82;
+    -webkit-appearance: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+input[type="checkbox"]:checked {
+    background-image: url(../img/enroll4.png);
+    background-repeat: no-repeat;
+    background-position: -33px -19px;
+}
+
+.pagefeeds {
+    width: 1210px;
+    height: 72px;
+    text-align: center;
+}
+
+.pagefeeds1 {
+    width: 56px;
+    height: 28px;
+    display: inline-block;
+    font-size: 16px;
+    border: 1px solid #e4e4e4;
+    margin: 40px 5px 5px 0px;
+    border-radius: 5px;
+    line-height: 28px;
+    cursor: not-allowed;
+}
+
+.pagefeeds2 {
+    display: inline-block;
+    font-size: 16px;
+    border: 1px solid #e4e4e4;
+    width: 30px;
+    height: 28px;
+    border-radius: 5px;
+    line-height: 28px;
+    margin: 0px 5px;
+    cursor: default;
+    background-color: #17ac82;
+    color: white;
+}
+
+.pagefeeds3 {
+    display: inline-block;
+    font-size: 16px;
+    border: 1px solid #e4e4e4;
+    width: 30px;
+    height: 28px;
+    border-radius: 5px;
+    line-height: 28px;
+    margin: 0px 5px;
+    cursor: pointer;
+}
+
+.pagefeeds3:hover {
+    color: #17ac82;
+}
+
+.pagefeeds4 {
+    display: inline-block;
+    font-size: 16px;
+    border: 1px solid #e4e4e4;
+    width: 30px;
+    height: 28px;
+    border-radius: 5px;
+    line-height: 28px;
+    margin: 0px 5px;
+    cursor: pointer;
+}
+
+.pagefeeds4:hover {
+    color: #17ac82;
+}
+
+.pagefeeds5 {
+    display: inline-block;
+    font-size: 16px;
+    border: 1px solid #e4e4e4;
+    width: 30px;
+    height: 28px;
+    border-radius: 5px;
+    line-height: 28px;
+    margin: 0px 5px;
+    cursor: pointer;
+}
+
+.pagefeeds5:hover {
+    color: #17ac82;
+}
+
+.pagefeeds6 {
+    display: inline-block;
+    font-size: 16px;
+    border: 1px solid #e4e4e4;
+    width: 30px;
+    height: 28px;
+    border-radius: 5px;
+    line-height: 28px;
+    margin: 0px 5px;
+    cursor: pointer;
+}
+
+.pagefeeds6:hover {
+    color: #17ac82;
+}
+
+.pagefeeds7 {
+    display: inline-block;
+    font-size: 16px;
+    border: 1px solid #e4e4e4;
+    width: 30px;
+    height: 28px;
+    border-radius: 5px;
+    line-height: 28px;
+    margin: 0px 5px;
+    cursor: pointer;
+}
+
+.pagefeeds7:hover {
+    color: #17ac82;
+}
+
+.pagefeeds8 {
+    display: inline-block;
+    font-size: 16px;
+    border: 1px solid #e4e4e4;
+    width: 30px;
+    height: 28px;
+    border-radius: 5px;
+    line-height: 28px;
+    margin: 0px 5px;
+    cursor: pointer;
+}
+
+.pagefeeds81 {
+    display: inline-block;
+    font-size: 16px;
+    line-height: 28px;
+}
+
+.pagefeeds82 {
+    width: 30px;
+    height: 28px;
+    display: inline-block;
+    font-size: 16px;
+    color: #17ac82;
+    visibility: hidden;
+    position: absolute;
+    left: 762px;
+}
+
+.pagefeeds8:hover .pagefeeds82 {
+    visibility: visible;
+}
+
+.pagefeeds8:hover .pagefeeds81 {
+    opacity: 0;
+}
+
+.pagefeeds9 {
+    display: inline-block;
+    font-size: 16px;
+    border: 1px solid #e4e4e4;
+    width: 30px;
+    height: 28px;
+    border-radius: 5px;
+    line-height: 28px;
+    margin: 0px 5px;
+    cursor: pointer;
+}
+
+.pagefeeds9:hover {
+    color: #17ac82;
+}
+
+.pagefeeds10 {
+    display: inline-block;
+    font-size: 16px;
+    border: 1px solid #e4e4e4;
+    width: 58px;
+    height: 28px;
+    border-radius: 5px;
+    line-height: 28px;
+    margin: 0px 5px;
+    cursor: pointer;
+}
+
+.pagefeeds11 {
+    display: inline-block;
+    font-size: 16px;
+    width: 78px;
+    height: 28px;
+    border-radius: 5px;
+    line-height: 28px;
+    margin: 0px 5px;
+}
+
+.pagefeeds12 {
+    display: inline-block;
+    font-size: 16px;
+    width: 48px;
+    height: 28px;
+    border-radius: 5px;
+    line-height: 28px;
+    margin-left: 50px;
+}
+
+.pagefeeds13 {
+    display: inline-block;
+    font-size: 16px;
+    border: 1px solid #e4e4e4;
+    width: 58px;
+    height: 28px;
+    border-radius: 5px;
+    line-height: 28px;
+    cursor: text;
+}
+
+.pagefeeds13:hover {
+    border: 1px solid #c0c4cc;
+}
+
+.pagefeeds14 {
+    display: inline-block;
+    font-size: 16px;
+    width: 30px;
+    height: 28px;
+    border-radius: 5px;
+    line-height: 28px;
+}
+.content .nav ul li:nth-of-type(1) {
+    background-color: rgb(250, 250, 250);
+    color: #666;
+}
+.content .nav ul li:nth-of-type(1):hover {
+    background-color: rgb(255, 255, 255);
+    color: #666;
+}
+.content .nav ul li:nth-of-type(2) {
+    background-color: #17ac82;
+}
