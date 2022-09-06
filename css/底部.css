@@ -1,0 +1,238 @@
+.bottom {
+    width: 100%;
+    height: 142px;
+    margin: auto;
+    position: fixed;
+    background-color: #17ac82;
+    bottom: 0px;
+}
+
+.bottom>div {
+    width: 1210px;
+    margin: 0 auto;
+}
+
+/* 底部左右两边 */
+.bottom_left {
+    width: 500px;
+    height: 142px;
+    position: relative;
+}
+
+.bottom_right {
+    width: 710px;
+    height: 142px;
+    position: relative;
+    float: right;
+    margin-top: -120px;
+}
+
+/* 底部分边结束 */
+
+/* 不止好工作的图片 */
+.half {
+    width: 308px;
+    height: 40px;
+    background-color: #17ac82;
+    position: absolute;
+    bottom: 26px;
+    right: 10px;
+    background-image: url(../imgs/不止好工作.png);
+    background-size: 308px 40px;
+
+}
+
+/* 走路大图 */
+.half_road {
+    width: 116px;
+    height: 138px;
+    background-color: #17ac82;
+    position: absolute;
+    top: 2px;
+    right: 352px;
+    background-image: url(../imgs/走路.png);
+    background-size: cover;
+}
+
+/* 百里半logo */
+.half_bai {
+    width: 94px;
+    height: 38px;
+    background-color: #17ac82;
+    position: absolute;
+
+    /* background-image: url(./img/bailiban_floatDialog_Logo\(1\).png); */
+    /* background-position: -1px 2px; */
+    right: 214px;
+    bottom: 82px;
+}
+
+@font-face {
+    font-family: "iconfont";
+    /* Project id 3517267 */
+    src: url('iconfont.woff2?t=1657617191500') format('woff2'),
+        url('iconfont.woff?t=1657617191500') format('woff'),
+        url('iconfont.ttf?t=1657617191500') format('truetype');
+}
+
+.iconfont {
+    font-family: "iconfont" !important;
+    font-size: 32px;
+    font-style: normal;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-shouji:before {
+    content: "\e692";
+}
+
+/* 右边登录框 */
+.bottom_number {
+    width: 254px;
+    height: 40px;
+    border: 1px solid;
+    background-color: white;
+    border-radius: 5px;
+    position: absolute;
+    top: 52px;
+    left: 40px;
+}
+
+/* 手机logo */
+.phone {
+    width: 56px;
+    height: 40px;
+    border: 1px solid transparent;
+    text-align: center;
+    line-height: 40px;
+    float: left;
+}
+
+.bottom_number input {
+    float: left;
+    font-size: 12px;
+    position: absolute;
+    top: 12px;
+    left: 59px;
+    outline: none;
+    border: none;
+}
+
+.bottom_number::after {
+    clear: both;
+    content: "";
+    display: block;
+}
+
+/* 验证码框 */
+.bottom_num {
+    width: 254px;
+    height: 40px;
+    border: 1px solid transparent;
+    border-radius: 5px;
+    background-color: white;
+    position: absolute;
+    top: 52px;
+    left: 312px;
+
+}
+
+.bottom_yanzheng input {
+    float: left;
+    margin-top: 10px;
+    outline: none;
+    border: none;
+    width: 80px;
+    margin-left: 16px;
+
+}
+
+.bottom_yanzheng {
+    clear: both;
+    content: "";
+    display: block;
+}
+
+.right_yan {
+    width: 108px;
+    height: 40px;
+    background-color: white;
+    float: right;
+    text-align: center;
+
+}
+
+.right_yan a {
+    text-decoration: none;
+    color: #17ac82;
+    font-style: italic;
+    text-align: center;
+    line-height: 40px;
+
+}
+
+/* 登录提交按钮 */
+.button {
+    position: absolute;
+    left: 586px;
+    top: 52px;
+    width: 102px;
+    height: 38px;
+    border: 1px solid transparent;
+    border-radius: 5px;
+
+
+}
+
+.button input {
+    width: 102px;
+    height: 38px;
+    background-color: transparent;
+    color: white;
+    outline: none;
+    border: 1px solid white;
+    border-radius: 5px;
+}
+
+.button:hover {
+    background-color: white;
+}
+
+.button:hover input {
+    color: #17ac82;
+}
+
+.shu {
+    height: 14px;
+    border-left: 1px solid #f2f4f7;
+    width: 1px;
+    float: right;
+    margin-top: 12px;
+}
+
+.right_shu {
+    height: 14px;
+    border-left: 1px solid #f2f4f7;
+    width: 1px;
+    margin-top: 12px;
+    float: left;
+}
+
+.right_shu::before {
+    clear: both;
+    content: "";
+    display: block;
+
+}
+
+.phone::after {
+    clear: both;
+    content: "";
+    display: block;
+
+}
+
+.button:hover form input {
+    cursor: pointer;
+}

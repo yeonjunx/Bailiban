@@ -1,22 +1,731 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <!-- <link rel="stylesheet" href="./css/百里半.css"> -->
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>职位-百里半-IT世界门户</title>
+    <link rel="stylesheet" href="./css/common.css">
+    <link rel="stylesheet" href="./css/底部.css">
+    <link rel="stylesheet" href="./iconfont/iconfont.css">
+    <link rel="stylesheet" href="./css/font_3518537_9zo73mtn4wm/iconfont.css">
+    <link rel="stylesheet" href="./css/posts.css">
+    <link rel="icon" href="./imgs/favicon.ico">
 </head>
-<body>
-    <div class="bt-zw"></div>
-    <div class="bt1-zw"></div>
-    <div class="cd-zw"></div>
-    <div class="zt-zw">
-        <div class="xx-zw">
 
+<body>
+    <div class="content">
+        <div class="head">
+            <ul class="clearfix">
+                <li><img src="./imgs/defaultAvatar.png" alt=""></li>
+                <li><span>登录</span><span><a href="./html/enroll.html">注册</a></span></li>
+                <li>我的消息</li>
+                <li>进入企业端</li>
+                <li>编辑简历</li>
+                <li>上传简历</li>
+            </ul>
+        </div>
+        <div class="nav">
+            <div class="nav_border">
+                <img src="./imgs/new_logo.png" alt="">
+                <ul>
+                    <li><a href="./index.html">首页</a></li>
+                    <li><a href="./posts.html">职位</a></li>
+                    <li><a href="./公司.html">公司</a></li>
+                    <li><a href="./跨境电商专区.html">跨境电商专区</a></li>
+                    <li><a href="./百里半学院.html">百里半学院</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="main_content">
+            <div class="up">
+                <div class="posts">
+                    <select class="select">
+                        <option value="posts">
+                            职位
+                        </option>
+                        <option value="fulltext">
+                            全文
+                        </option>
+                    </select>
+                    <div class="drop-downarrow">
+
+                    </div>
+                    <div class="vertical">
+
+                    </div>
+                    <input type="text" placeholder="输入关键词进行搜索" class="searchbox">
+                    <div class="search">
+                        <div class="search_icon">
+
+                        </div>
+                        搜索
+                    </div>
+                </div>
+                <div class="address">
+                    地点:
+                    <select class="address1">
+                        <option value="">
+                            北京
+                        </option>
+                        <option value="">
+                            天津
+                        </option>
+                        <option value="">
+                            上海
+                        </option>
+                        <option value="">
+                            重庆
+                        </option>
+                        <option value="">
+                            河北
+                        </option>
+                        <option value="">
+                            山西
+                        </option>
+                        <option value="">
+                            内蒙古
+                        </option>
+                        <option value="">
+                            辽林
+                        </option>
+                        <option value="">
+                            吉林
+                        </option>
+                        <option value="">
+                            黑龙江
+                        </option>
+                        <option value="">
+                            江苏
+                        </option>
+                        <option value="">
+                            浙江
+                        </option>
+                        <option value="">
+                            安徽
+                        </option>
+                        <option value="">
+                            福建
+                        </option>
+                        <option value="">
+                            江西
+                        </option>
+                        <option value="">
+                            山东
+                        </option>
+                        <option value="">
+                            河南
+                        </option>
+                        <option value="">
+                            湖北
+                        </option>
+                        <option value="">
+                            湖南
+                        </option>
+                        <option value="">
+                            广东
+                        </option>
+                        <option value="">
+                            广西
+                        </option>
+                        <option value="">
+                            海南
+                        </option>
+                        <option value="">
+                            四川
+                        </option>
+                        <option value="">
+                            贵州
+                        </option>
+                        <option value="">
+                            云南
+                        </option>
+                        <option value="">
+                            西藏
+                        </option>
+                        <option value="">
+                            陕西
+                        </option>
+                        <option value="">
+                            甘肃
+                        </option>
+                        <option value="">
+                            青海
+                        </option>
+                        <option value="">
+                            宁夏
+                        </option>
+                        <option value="">
+                            新疆
+                        </option>
+                        <option value="">
+                            台湾
+                        </option>
+                        <option value="">
+                            香港
+                        </option>
+                        <option value="">
+                            澳门
+                        </option>
+                    </select>
+                    <div class="popularcities">
+                        热门城市:
+                    </div>
+                    <ul class="cities">
+                        <li class="li">
+                            全国
+                        </li>
+                        <li class="li">
+                            深圳
+                        </li>
+                        <li class="li">
+                            北京
+                        </li>
+                        <li class="li">
+                            上海
+                        </li>
+                        <li class="li">
+                            广州
+                        </li>
+                        <li class="li">
+                            杭州
+                        </li>
+                        <li class="li">
+                            武汉
+                        </li>
+                        <li class="li">
+                            南京
+                        </li>
+                        <li class="li">
+                            成都
+                        </li>
+                        <li class="li">
+                            天津
+                        </li>
+                        <li class="li">
+                            合肥
+                        </li>
+                    </ul>
+                </div>
+                <div class="smalladdress">
+                    <div class="smalladdress1">
+                        不限
+                    </div>
+                    <div class="smalladdress2">
+                        北京
+                    </div>
+                </div>
+                <div class="other">
+                    其他：
+                    <select class="projectexperience">
+                        <option value="" selected disabled hidden>
+                            项目经验
+                        </option>
+                        <option value="">
+                            1-5个
+                        </option>
+                        <option value="">
+                            5-10个
+                        </option>
+                        <option value="">
+                            10个以上
+                        </option>
+                    </select>
+                    <select class="academicrequirements">
+                        <option value="" selected disabled hidden>
+                            学历要求
+                        </option>
+                        <option value="">
+                            高中
+                        </option>
+                        <option value="">
+                            专科
+                        </option>
+                        <option value="">
+                            本科
+                        </option>
+                        <option value="">
+                            硕士
+                        </option>
+                    </select>
+                    <select class="salaryrequirements">
+                        <option value="" selected disabled hidden>
+                            薪资要求
+                        </option>
+                        <option value="">
+                            3k以下
+                        </option>
+                        <option value="">
+                            3-5k
+                        </option>
+                        <option value="">
+                            5-8k
+                        </option>
+                        <option value="">
+                            8-10k
+                        </option>
+                        <option value="">
+                            10-15k
+                        </option>
+                        <option value="">
+                            15-20k
+                        </option>
+                        <option value="">
+                            20k以上
+                        </option>
+                        <option value="">
+                            面议
+                        </option>
+                    </select>
+                    <select class="companysize">
+                        <option value="" selected disabled hidden>
+                            公司规模
+                        </option>
+                        <option value="">
+                            10人以下
+                        </option>
+                        <option value="">
+                            10-100人
+                        </option>
+                        <option value="">
+                            100-300人
+                        </option>
+                        <option value="">
+                            300-500人
+                        </option>
+                        <option value="">
+                            500-1000人
+                        </option>
+                        <option value="">
+                            1000-5000人
+                        </option>
+                        <option value="">
+                            5000-20000人
+                        </option>
+                        <option value="">
+                            20000人以上
+                        </option>
+                    </select>
+                    <div class="delivery">
+                        批量投递
+                    </div>
+                </div>
+            </div>
+            <div class="down">
+                <div class="titleoptions">
+                    <div class="checkboxbox">
+                        <input type="checkbox" class="selectall">
+                    </div>
+                    <div class="highestpay">
+                        薪酬最高
+                    </div>
+                    <div class="latestrelease">
+                        最新发布
+                    </div>
+                    <div class="smartmatching">
+                        智能匹配
+                    </div>
+                </div>
+                <div class="jobinformation">
+                    <div class="job1">
+                        <div class="left">
+                            <div class="left1">
+                                <input type="checkbox" class="left2">
+                            </div>
+                            <div class="left3">
+                                <div class="left4">
+                                    <div class="COO">
+                                        COO运营总经理
+                                    </div>
+                                    <div class="smallicon">
+
+                                    </div>
+                                    <div class="speak">
+                                        立即沟通
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="left5">
+                                <div class="left6">
+                                    20-50k
+                                </div>
+                                <div class="left7">
+                                    武汉市洪山区珞...
+                                </div>
+                                <div class="left9">
+
+                                </div>
+                                <div class="left8">
+                                    本科
+                                </div>
+                            </div>
+                        </div>
+                        <div class="right">
+                            <div class="rightup">
+                                武汉慧捷云信息科技有限公司
+                            </div>
+                            <div class="applyforaposition">
+                                申请职位
+                            </div>
+                            <div class="rightmiddle">
+                                10-100人
+                            </div>
+                            <div class="rightdown">
+                                招聘中
+                            </div>
+                        </div>
+                    </div>
+                    <div class="job1">
+                        <div class="left">
+                            <div class="left1">
+                                <input type="checkbox" class="left2">
+                            </div>
+                            <div class="left3">
+                                <div class="left4">
+                                    <div class="COO">
+                                        .NET开发
+                                    </div>
+                                    <div class="smallicon">
+
+                                    </div>
+                                    <div class="speak">
+                                        立即沟通
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="left5">
+                                <div class="left6">
+                                    20-50k
+                                </div>
+                                <div class="left7">
+                                    暂无地址
+                                </div>
+                                <div class="left9">
+
+                                </div>
+                                <div class="left8">
+                                    高中
+                                </div>
+                            </div>
+                        </div>
+                        <div class="right">
+                            <div class="rightup">
+                                广州瑞泰信息技术有限公司
+                            </div>
+                            <div class="applyforaposition1">
+                                申请职位
+                            </div>
+                            <div class="rightmiddle">
+                                100-300人
+                            </div>
+                            <div class="rightdown">
+                                招聘中
+                            </div>
+                        </div>
+                    </div>
+                    <div class="job1">
+                        <div class="left">
+                            <div class="left1">
+                                <input type="checkbox" class="left2">
+                            </div>
+                            <div class="left3">
+                                <div class="left4">
+                                    <div class="COO">
+                                        硬件工程师
+                                    </div>
+                                    <div class="smallicon">
+
+                                    </div>
+                                    <div class="speak">
+                                        立即沟通
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="left5">
+                                <div class="left6">
+                                    10-40k
+                                </div>
+                                <div class="left7">
+                                    北京市海淀区地...
+                                </div>
+                                <div class="left9">
+
+                                </div>
+                                <div class="left8">
+                                    专科
+                                </div>
+                            </div>
+                        </div>
+                        <div class="right">
+                            <div class="rightup">
+                                北京中科海迅数字科技股份有限公司
+                            </div>
+                            <div class="applyforaposition2">
+                                申请职位
+                            </div>
+                            <div class="rightmiddle">
+                                100-300人
+                            </div>
+                            <div class="rightdown">
+                                招聘中
+                            </div>
+                        </div>
+                    </div>
+                    <div class="job1">
+                        <div class="left">
+                            <div class="left1">
+                                <input type="checkbox" class="left2">
+                            </div>
+                            <div class="left3">
+                                <div class="left4">
+                                    <div class="COO">
+                                        项目经理
+                                    </div>
+                                    <div class="smallicon">
+
+                                    </div>
+                                    <div class="speak">
+                                        立即沟通
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="left5">
+                                <div class="left6">
+                                    10-30k
+                                </div>
+                                <div class="left7">
+                                    光谷芯中心
+                                </div>
+                                <div class="left9">
+
+                                </div>
+                                <div class="left8">
+                                    专科
+                                </div>
+                            </div>
+                        </div>
+                        <div class="right">
+                            <div class="rightup">
+                                华宇智效科技（北京）有限公司武汉分公司
+                            </div>
+                            <div class="applyforaposition3">
+                                申请职位
+                            </div>
+                            <div class="rightmiddle">
+                                100-300人
+                            </div>
+                            <div class="rightdown">
+                                招聘中
+                            </div>
+                        </div>
+                    </div>
+                    <div class="job1">
+                        <div class="left">
+                            <div class="left1">
+                                <input type="checkbox" class="left2">
+                            </div>
+                            <div class="left3">
+                                <div class="left4">
+                                    <div class="COO">
+                                        Java开发工程师
+                                    </div>
+                                    <div class="smallicon">
+
+                                    </div>
+                                    <div class="speak">
+                                        立即沟通
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="left5">
+                                <div class="left6">
+                                    10-30k
+                                </div>
+                                <div class="left7">
+                                    武汉市未来科技...
+                                </div>
+                                <div class="left9">
+
+                                </div>
+                                <div class="left8">
+                                    本科
+                                </div>
+                            </div>
+                        </div>
+                        <div class="right">
+                            <div class="rightup">
+                                武汉空心科技有限公司
+                            </div>
+                            <div class="applyforaposition4">
+                                申请职位
+                            </div>
+                            <div class="rightmiddle">
+                                10-100人
+                            </div>
+                            <div class="rightdown">
+                                招聘中
+                            </div>
+                        </div>
+                    </div>
+                    <div class="job1">
+                        <div class="left">
+                            <div class="left1">
+                                <input type="checkbox" class="left2">
+                            </div>
+                            <div class="left3">
+                                <div class="left4java">
+                                    <div class="COO">
+                                        JAVA后端高级开发工程师
+                                    </div>
+                                    <div class="smalliconjava">
+
+                                    </div>
+                                    <div class="speakjava">
+                                        立即沟通
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="left5">
+                                <div class="left6">
+                                    15-30k
+                                </div>
+                                <div class="left7">
+                                    武汉东湖新技术...
+                                </div>
+                                <div class="left9">
+
+                                </div>
+                                <div class="left8">
+                                    本科
+                                </div>
+                            </div>
+                        </div>
+                        <div class="right">
+                            <div class="rightup">
+                                武汉云基点医疗科技有限公司
+                            </div>
+                            <div class="applyforaposition5">
+                                申请职位
+                            </div>
+                            <div class="rightmiddle">
+                                10-100人
+                            </div>
+                            <div class="rightdown">
+                                招聘中
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="pagefeeds">
+                    <div class="pagefeeds1">上一页</div>
+                    <div class="pagefeeds2">1</div>
+                    <div class="pagefeeds3">2</div>
+                    <div class="pagefeeds4">3</div>
+                    <div class="pagefeeds5">4</div>
+                    <div class="pagefeeds6">5</div>
+                    <div class="pagefeeds7">6</div>
+                    <div class="pagefeeds8">
+                        <div class="pagefeeds81">...</div>
+                        <div class="pagefeeds82">>></div>
+                    </div>
+                    <div class="pagefeeds9">310</div>
+                    <div class="pagefeeds10">下一页</div>
+                    <div class="pagefeeds11">共1855条</div>
+                    <div class="pagefeeds12">前往</div>
+                    <div class="pagefeeds13">1</div>
+                    <div class="pagefeeds14">页</div>
+                </div>
+            </div>
+        </div>
+        <footer class="foot">
+            <div class="footerBody">
+                <div class="footerLeft">
+                    <div class="leftTop">
+                        <img src="./imgs/footer_logo.png" />
+                        <span>行百里者半九十 专注你的紧要几步</span>
+                    </div>
+
+                    <div class="word">
+                        <span>关于我们</span>
+                        <span>注册协议</span>
+                        <span>隐私协议</span>
+                        <span>常见问题</span>
+                        <span>帮助中心</span>
+                    </div>
+
+                    <div class="word1">
+                        <span>友情链接：</span>
+                        <a href="http://www.myhopu.com/">
+                            厚溥教育
+                        </a>
+                    </div>
+
+                    <div class="word2">
+                        <span>地址：湖北省武汉市洪山区关山大道光谷软件园D区8栋</span>
+                        <span>版权信息：百里半（武汉）网络技术有限公司</span>
+                    </div>
+                    <div class="word2">
+                        <span>网址：https://bailiban.com</span>
+                        <span>鄂ICP备16020168号-8</span>
+                    </div>
+                </div>
+
+                <div class="footerRight">
+                    <img src="./imgs/jobSearchCode.jpg" class="wechat" />
+                    <img src="./imgs/workplaceSkillsStationQRCode.jpg" />
+                </div>
+            </div>
+        </footer>
+    </div>
+    <!-- 侧边栏 -->
+    <div class="sidebar">
+        <ul>
+            <li>
+                <span>
+                    <i class="icon"></i>
+                </span>
+            </li>
+        </ul>
+        <a class="liaotian">最近聊天</a>
+    </div>
+    <!-- 底部开始 -->
+    <div class="bottom">
+        <div>
+            <!-- 底部左边部分 -->
+            <div class="bottom_left">
+                <div class="half"></div>
+                <div class="half_bai"> <img src="./imgs/bailiban_floatDialog_Logo(1).png"></div>
+                <div class="half_road"></div>
+            </div>
+            <!-- 底部右边部分 -->
+            <div class="bottom_right">
+                <div class="bottom_number">
+                    <div class="phone iconfont icon-shouji">
+                        <div class="shu"></div>
+                    </div>
+                    <input type="text" placeholder="请输入手机号码">
+                </div>
+                <div class="bottom_num">
+                    <div class="bottom_yanzheng">
+                        <input type="text" placeholder="请输入验证码">
+                    </div>
+                    <div class="right_yan">
+                        <a href="###">获取验证码</a>
+                        <div class="right_shu">
+
+                        </div>
+                    </div>
+                </div>
+
+                <div class="button">
+                    <form action="">
+                        <input type="submit" value="登录/注册">
+                    </form>
+                </div>
+            </div>
         </div>
     </div>
-    <div class="wy-zw"></div>
-    <div class="gd-zw"></div>
 </body>
+
 </html>

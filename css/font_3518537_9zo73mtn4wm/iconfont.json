@@ -1,0 +1,23 @@
+{
+  "id": "3518537",
+  "name": "bailiban",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "2675116",
+      "name": "搜索",
+      "font_class": "sousuo",
+      "unicode": "e632",
+      "unicode_decimal": 58930
+    },
+    {
+      "icon_id": "10793750",
+      "name": "收缩_操作_jurassic",
+      "font_class": "jurassic_unfold",
+      "unicode": "e70e",
+      "unicode_decimal": 59150
+    }
+  ]
+}
