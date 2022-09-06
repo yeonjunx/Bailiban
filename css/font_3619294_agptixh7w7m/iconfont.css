@@ -10,6 +10,18 @@
        url('iconfont1.woff?t=1662018041975') format('woff'),
        url('iconfont1.ttf?t=1662018041975') format('truetype');
 }
+@font-face {
+  font-family: "iconfont"; /* Project id 3625850 */
+  src: url('iconfont2.woff2?t=1662098644390') format('woff2'),
+       url('iconfont2.woff?t=1662098644390') format('woff'),
+       url('iconfont2.ttf?t=1662098644390') format('truetype');
+}
+@font-face {
+  font-family: "iconfont"; /* Project id 3625953 */
+  src: url('iconfont3.woff2?t=1662100479617') format('woff2'),
+       url('iconfont3.woff?t=1662100479617') format('woff'),
+       url('iconfont3.ttf?t=1662100479617') format('truetype');
+}
 .iconfont {
   font-family: "iconfont" !important;
   font-size: 16px;
@@ -23,4 +35,10 @@
 }
 .icon-search:before {
   content: "\e651";
+}
+.icon-arrow-right:before {
+  content: "\e665";
+}
+.icon-arrow-left:before {
+  content: "\e606";
 }
