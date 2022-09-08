@@ -50,7 +50,7 @@ li{
     height: 14px;
     background-color: #fff;
     margin: 8px 8px 8px 8px;
-}g
+}
 .top_nav img{
     margin-left: 15px;
 }
@@ -181,6 +181,10 @@ li{
 .cycle_img img{
     width: 100%;
     height: 100%;
+    display: none;
+}
+.work .cycle_img .imcurrent{
+    display:block;
 }
 .item{
     width: 186px;
@@ -246,6 +250,9 @@ li{
     background-color: #fff;
     margin-right: 6px;
     border-radius: 50%;
+}
+.work .point .poicurrent{
+    background-color: red;
 }
 /* employ */
 .employ{
