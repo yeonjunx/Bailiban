@@ -1,7 +1,7 @@
 //获取滚动条
 //获取div
 var div=document.getElementById('top2_nav');
-console.log(div);
+// console.log(div);
 //滚动条距离事件
 /* setInterval(() => {
     var scroll=document.documentElement.scrollTop;

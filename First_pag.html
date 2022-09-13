@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>首页</title>
     <link rel="stylesheet" href="./css/First_pag.css">
+    <link rel="stylesheet" href="./css/top.css">
     <link rel="stylesheet" href="./css/font_3619294_agptixh7w7m/iconfont.css">
 </head>
 <body>
@@ -20,9 +21,9 @@
                     <li>我的消息</li>
                 </ul>
                 <div>
-                     <span>登录</span>
+                     <span class="load">登录</span>
                      <span></span>
-                     <span>注册</span>
+                     <span class="regist">注册</span>
                 </div>
                 <img src="./img/headimg.png" alt="">
             </div>
@@ -31,12 +32,12 @@
         <div class="top2_nav" id="top2_nav">
             <div>
                 <img src="./img/baililogo.png" alt="">
-                <ul>
-                    <li>首页</li>
-                    <li>职位</li>
-                    <li>公司</li>
-                    <li>跨境电商区</li>
-                    <li>百里半学院</li>
+                <ul id="nav_click">
+                  <li class="nav_click">首页</li>  
+                  <li>职位</li>  
+                  <li>公司</li>
+                  <li>跨境电商区</li>
+                  <li>百里半学院</li> 
                 </ul>
             </div>
         </div>
@@ -46,9 +47,18 @@
             <div class="search">
                 <div>
                     <div class="sl">
-                        <div class="pos">
+                        <div class="pos" id="ftrans">
                             <p>职位</p>
-                            <i class="iconfont icon-552cc1b6033d0"></i>
+                            <p id="trans">
+                                <i class="iconfont icon-552cc1b6033d0" ></i>
+                            </p>
+                        </div>
+                        <div class="rott" id="rot">
+                            <div class="angle"></div>
+                            <div class="complement">
+                                <span id="per">职位</span>
+                                <span id="cor">公司</span>
+                            </div>
                         </div>
                     </div>
                     <div class="sc">
@@ -67,45 +77,133 @@
                 <div>
                     <!-- 列表 -->
                     <div class="item">
-                         <ul >
+                         <ul class="iitem">
                             <li>
-                                <p>
-                                    软件技术/信息技术类
-                                </p>
-                                <p>
-                                    <i class="iconfont icon-arrow-right"></i>
-                                </p>
+                                <div class="tt">
+                                    <p class="lis">
+                                        软件技术/信息技术类
+                                    </p>
+                                    <p class="pis">
+                                        <i class="iconfont icon-arrow-right"></i>
+                                    </p>
+                                </div>
+                                <div class="item_s">
+                                    <span>软件技术/信息技术类</span>
+                                    <ul class="list_box">
+                                        <li>Java工程师</li>
+                                        <li>.net工程师</li>
+                                        <li>Web前端工程师</li>
+                                        <li>Python工程师</li>
+                                        <li>大数据工程师</li>
+                                        <li>物联网工程师</li>
+                                        <li>GIS工程师</li>
+                                        <li>测试工程师</li>
+                                        <li>算法工程师</li>
+                                        <li>数据分析师</li>
+                                        <li>小程序开发工程师</li>
+                                        <li>Hadoop工程师</li>
+                                        <li>安卓开发工程师</li>
+                                        <li>IOS开发工程师</li>
+                                        <li>PHP工程师</li>
+                                        <li>人工智能/机器学习工程师</li>
+                                    </ul>
+                                </div>
                             </li>
                             <li>
-                                <p>
-                                    产品/设计类
-                                </p>
-                                <p>
-                                    <i class="iconfont icon-arrow-right"></i>
-                                </p>
+                                <div class="tt">
+                                    <p class="lis">
+                                        产品/设计类
+                                    </p>
+                                    <p class="pis">
+                                        <i class="iconfont icon-arrow-right"></i>
+                                    </p>
+                                </div>
+                                <div class="item_s">
+                                    <span>产品/设计类</span>
+                                    <ul class="list_box">
+                                        <li>UI设计师</li>
+                                        <li>产品助理</li>
+                                        <li>产品经理</li>
+                                        <li>游戏策划</li>
+                                        <li>交互设计师</li>
+                                        <li>原画师</li>
+                                        <li>用户研究</li>
+                                        <li>用户运营</li>
+                                    </ul>
+                                </div>
                             </li>
                             <li>
-                                <p>
-                                    电子商务/互联网营                            </p>
-                                <p>
-                                    <i class="iconfont icon-arrow-right"></i>
-                                </p>
+                                <div class="tt">
+                                    <p class="lis">
+                                        电子商务/互联网营销/市场营销类                            
+                                    </p>
+                                    <p class="pis">
+                                        <i class="iconfont icon-arrow-right"></i>
+                                    </p>
+                                </div>
+                                <div class="item_s">
+                                    <span>电子商务/互联网营销/市场营销类</span>
+                                    <ul class="list_box">
+                                        <li>销售工程师</li>
+                                        <li>客户经理</li>
+                                        <li>市场分析</li>
+                                        <li>公关</li>
+                                        <li>售后工程师</li>
+                                        <li>互联网营销工程师</li>
+                                        <li>新媒体运营</li>
+                                        <li>网店运营</li>
+                                        <li>网店客服</li>
+                                        <li>店铺推广</li>
+                                        <li>内容运营</li>
+                                        <li>用户研究</li>
+                                        <li>用户运营</li>
+                                    </ul>
+                                </div>
                             </li>
                             <li>
-                                <p>
-                                    运维/实施类
-                                </p>
-                                <p>
-                                    <i class="iconfont icon-arrow-right"></i>
-                                </p>
+                                <div class="tt">
+                                    <p class="lis">
+                                     运维/实施类
+                                    </p>
+                                    <p class="pis">
+                                        <i class="iconfont icon-arrow-right"></i>
+                                    </p>
+                                </div>
+                                <div class="item_s">
+                                    <span>运维/实施类</span>
+                                    <ul class="list_box">
+                                        <li>实施工程师</li>
+                                        <li>运维工程师</li>
+                                        <li>网络工程师</li>
+                                        <li>系统工程师</li>
+                                        <li>安全工程师</li>
+                                        <li>技术支持</li>
+                                        <li>运维总监</li>
+                                    </ul>
+                                </div>
                             </li>
                             <li>
-                                <p>
-                                    高级管理/项目管理类
-                                </p>
-                                <p>
-                                    <i class="iconfont icon-arrow-right"></i>
-                                </p>
+                                <div class="tt">
+                                    <p class="lis">
+                                        高级管理/项目管理类
+                                    </p>
+                                    <p class="pis">
+                                        <i class="iconfont icon-arrow-right"></i>
+                                    </p>
+                                </div>
+                                <div class="item_s">
+                                    <span>高级管理/项目管理类</span>
+                                    <ul class="list_box">
+                                        <li>技术总监/CTO</li>
+                                        <li>架构师</li>
+                                        <li>技术总监</li>
+                                        <li>测试总监</li>
+                                        <li>安全专家</li>
+                                        <li>技术经理</li>
+                                        <li>项目经理</li>
+                                        <li>项目助理</li>
+                                    </ul>
+                                </div>
                             </li>
                         </ul>
                     </div>
