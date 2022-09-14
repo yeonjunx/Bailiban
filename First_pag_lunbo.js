@@ -90,14 +90,12 @@ function lrun(){
     trans.className='retrans';
     rot.className='rott';
 }
-// per.onclick=;
 per.onclick=function dd() {
     perr.innerText=per.innerText;
     per.style.color='green';
     cor.style.color='#333';
     lrun();
 }
-// cor.onclick=lrun;
 cor.onclick=function bb() {
     perr.innerText=cor.innerText;
     per.style.color='#333';

@@ -388,8 +388,16 @@ a{
 .l_button{
     left: 16px;
 }
+.l_button:hover{
+    cursor: pointer;
+    background-color: rgba(31, 45, 61, 0.31);
+}
 .r_button{
     right:16px;
+}
+.r_button:hover{
+    cursor: pointer;
+    background-color: rgba(31, 45, 61, 0.31);
 }
 .point{
     width: 84px;
@@ -404,11 +412,15 @@ a{
     height: 10px;
     float: left;
     background-color: #fff;
+    opacity: .48;
     margin-right: 6px;
     border-radius: 50%;
 }
+.point li:hover{
+    cursor: pointer;
+}
 .work .point .poicurrent{
-    background-color: red;
+    background-color: #fff;
 }
 /* employ */
 .employ{
