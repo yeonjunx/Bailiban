@@ -44,7 +44,7 @@ function run() {
 
 
 /* --------nav_click-------- */
-var ul=document.getElementById('nav_click');
+/* var ul=document.getElementById('nav_click');
 var lis=ul.children;
     for(var i=0;i<lis.length;i++){
         function mm(i){
@@ -60,7 +60,7 @@ var lis=ul.children;
             lis[i].className='';
             }
             clearOnclick(i)
-        }
+        } */
     
 /* --------ftrans点击-------- */
 var x=1;

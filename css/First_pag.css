@@ -7,6 +7,7 @@ li{
 }
 a{
     text-decoration: none;
+    color: #333;
 }
 /* .cleaner {
     overflow: hidden;
@@ -107,6 +108,8 @@ a{
 }
 .nav_click{
     background-color: #17ad82;
+}
+.nav_click a{
     color: #d9ffdd;
 }
 .top2_nav div ul li:nth-of-type(5)
@@ -223,6 +226,10 @@ a{
     padding:0 20px 0 12px;;
     outline: none;
     border: 0;
+}
+.sc input::-webkit-input-placeholder{
+    color: #c0c4cc;
+    font-size: 14px;
 }
 .sr{
     min-width: 80px;
@@ -673,12 +680,18 @@ a{
     display: inline-block;
     border-left: 1px solid #f2f2f2;
 }
+.number input::-webkit-input-placeholder{
+    color: #c0c4cc;
+}
 .check input{
     display: inline-block;
     border: 0;
     outline: none;
      margin-left: 17px;
      width: 100px;
+}
+.check input::-webkit-input-placeholder{
+    color: #c0c4cc;
 }
 .check span{
     font-size: 12px;
