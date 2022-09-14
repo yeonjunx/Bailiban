@@ -102,3 +102,8 @@ cor.onclick=function bb() {
     cor.style.color='green';
     lrun();
 }
+/* --------mohutupian--------- */
+window.onload=function () {
+    var opatu=document.getElementById('img1');
+    opatu.style.filter=10;
+}
