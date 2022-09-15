@@ -677,7 +677,7 @@ input[type="text"] {
 
 input[type="checkbox"] {
     border: 1px solid #17ac82;
-    -webkit-appearance: none;
+    /* -webkit-appearance: none; */
     border-radius: 3px;
     cursor: pointer;
 }
