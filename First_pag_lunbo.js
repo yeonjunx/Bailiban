@@ -43,25 +43,6 @@ function run() {
 
 
 
-/* --------nav_click-------- */
-/* var ul=document.getElementById('nav_click');
-var lis=ul.children;
-    for(var i=0;i<lis.length;i++){
-        function mm(i){
-            lis[i].onclick=function (){
-            lis[i].className='nav_click';
-            }
-        }
-        mm(i);
-    }
-
-        for(var i=1;i<lis.length;i++){
-            function clearOnclick(i){
-            lis[i].className='';
-            }
-            clearOnclick(i)
-        } */
-    
 /* --------ftrans点击-------- */
 var x=1;
 var pos=document.getElementById('ftrans');
@@ -69,19 +50,16 @@ var perr=document.getElementById('perr');
 var rot=document.getElementById('rot');
 var per=document.getElementById('per');
 var cor=document.getElementById('cor');
-function roro(x) {
-        pos.onclick=function (){
-        var trans=document.getElementById('trans');
-        if(x%2!=0){
-            rrun();
-        }
-        else{
-            lrun();
-        }
-        x++;
+pos.onclick=function (x){
+    var trans=document.getElementById('trans');
+    if(x%2!=0){
+        rrun();
     }
+    else{
+        lrun();
+    }
+    x++;
 }
-roro(x);
 function rrun(){
     trans.className='trans';
     rot.className='rot';
@@ -102,6 +80,7 @@ cor.onclick=function bb() {
     cor.style.color='green';
     lrun();
 }
+
 /* --------mohutupian--------- */
 window.onload=function () {
     var opatu=document.getElementById('img1');
