@@ -65,19 +65,45 @@ var lis=ul.children;
 /* --------ftrans点击-------- */
 var x=1;
 var pos=document.getElementById('ftrans');
+var perr=document.getElementById('perr');
 var rot=document.getElementById('rot');
+var per=document.getElementById('per');
+var cor=document.getElementById('cor');
 function roro(x) {
         pos.onclick=function (){
         var trans=document.getElementById('trans');
         if(x%2!=0){
-            trans.className='trans';
-            rot.className='rot';
+            rrun();
         }
         else{
-            trans.className='retrans';
-            rot.className='rott';
+            lrun();
         }
         x++;
     }
 }
 roro(x);
+function rrun(){
+    trans.className='trans';
+    rot.className='rot';
+}
+function lrun(){
+    trans.className='retrans';
+    rot.className='rott';
+}
+per.onclick=function dd() {
+    perr.innerText=per.innerText;
+    per.style.color='green';
+    cor.style.color='#333';
+    lrun();
+}
+cor.onclick=function bb() {
+    perr.innerText=cor.innerText;
+    per.style.color='#333';
+    cor.style.color='green';
+    lrun();
+}
+/* --------mohutupian--------- */
+window.onload=function () {
+    var opatu=document.getElementById('img1');
+    opatu.style.filter=10;
+}

@@ -394,7 +394,8 @@ input::-webkit-input-placeholder{
     border: 0;
     outline: none;
     padding: 0 60px 0 15px;
-}.b_button:hover{
+}
+.b_button:hover{
     background-color: #fff;
     color: #17ac82;
 }
