@@ -9,10 +9,6 @@ a{
     text-decoration: none;
     color: #333;
 }
-/* .cleaner {
-    overflow: hidden;
-} */
-
 /* top 导航 */
 .top_nav{
     width: 100%;
@@ -72,15 +68,6 @@ a{
     height: 60px;
     background-color: #fff;
 }
-/* .top2_nav1{
-    width: 100%;
-    height: 60px;
-    background-color: #fff;
-    position: fixed;
-    top: 0;
-    left: 0;
-    z-index: 4;
-} */
 .top2_nav div{
     width: 84%;
     height: 100%;
@@ -148,6 +135,9 @@ a{
     height: 42px;
     line-height: 42px;
 }
+.sl:hover{
+    cursor: pointer;
+}
 .pos{
     height: 42px;
 }
@@ -178,6 +168,7 @@ a{
     z-index: 1;
     width: 86px;
     height: 80px;
+    box-shadow: 0 1px 2px 0  rgb(214, 214, 214);
     display: block ;
     cursor: pointer;
     /* background-color: #fff; */
@@ -292,7 +283,6 @@ input::-webkit-input-placeholder{
     position: relative;
     display: inline-block;
     line-height: 12px;
-    /* margin-bottom: 42px; */
 }
 .iitem>li:hover{
     background-color:#fff;
@@ -316,11 +306,9 @@ input::-webkit-input-placeholder{
     line-height: 54px;
 }
 .lis{
-    /* display: inline-block; */
     font-size: 12px;
     height: 100%;
     width: 128px;
-    /* line-height: 54px; */
     color: #fff;
     white-space: nowrap;
     overflow: hidden;
@@ -361,7 +349,6 @@ input::-webkit-input-placeholder{
     margin:32px 0 30px 30px;
 }
 .list_box  li{
-    /* float: left; */
     display: inline-block;
     font-size: 12px;
     margin:0 60px 25px 0;
@@ -405,7 +392,6 @@ input::-webkit-input-placeholder{
     left: 50%;
     top: 352px;
     margin-left: -42px;
-    /* background-color: #11c591; */
 }
 .point li{
     width: 10px;
@@ -429,7 +415,6 @@ input::-webkit-input-placeholder{
 .employ>div{
     width: 83.5%;
     margin: 0 auto;
-    /* background-color: rebeccapurple; */
 }
 /* etitle */
 .etitle{
@@ -663,7 +648,6 @@ input::-webkit-input-placeholder{
 }
 .ba_2 img{
     height: 31px;
-    /* margin-right: 60px; */
 }
 .ba_3{
     display: flex;

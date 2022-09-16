@@ -50,8 +50,8 @@ var perr=document.getElementById('perr');
 var rot=document.getElementById('rot');
 var per=document.getElementById('per');
 var cor=document.getElementById('cor');
-pos.onclick=function (x){
-    var trans=document.getElementById('trans');
+var trans=document.getElementById('trans');
+pos.onclick=function (){
     if(x%2!=0){
         rrun();
     }
@@ -60,6 +60,7 @@ pos.onclick=function (x){
     }
     x++;
 }
+
 function rrun(){
     trans.className='trans';
     rot.className='rot';
@@ -68,21 +69,17 @@ function lrun(){
     trans.className='retrans';
     rot.className='rott';
 }
-per.onclick=function dd() {
+per.onclick=function() {
     perr.innerText=per.innerText;
     per.style.color='green';
     cor.style.color='#333';
     lrun();
+    x++;
 }
-cor.onclick=function bb() {
+cor.onclick=function() {
     perr.innerText=cor.innerText;
     per.style.color='#333';
     cor.style.color='green';
     lrun();
-}
-
-/* --------mohutupian--------- */
-window.onload=function () {
-    var opatu=document.getElementById('img1');
-    opatu.style.filter=10;
+    x++;
 }
