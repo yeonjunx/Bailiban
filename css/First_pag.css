@@ -701,6 +701,9 @@ input::-webkit-input-placeholder{
     color: #666;
     background-color: #fff;
 }
+.hang:hover{
+    cursor: pointer;
+}
 .hang i{
     display: block;
     margin-top: 10px;
